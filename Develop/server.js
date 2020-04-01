@@ -2,8 +2,11 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
+// install webpack and follow the file structure
+// create a folder for bundle and use a gitignore 
+// service worker registration 
 
-const PORT = 3000;
+const PORT = 3300;
 
 const app = express();
 
