@@ -2,9 +2,9 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-// install webpack and follow the file structure
-// create a folder for bundle and use a gitignore 
-// service worker registration 
+// event listener for "fetch"
+// cache the data being passed around
+// put cached data in the database when connection is restored (back online)
 
 const PORT = 3300;
 

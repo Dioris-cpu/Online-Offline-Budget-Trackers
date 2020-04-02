@@ -1,3 +1,9 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js").then(function() {
+    console.log("Service Worker Registered");
+  });
+}
+
 let transactions = [];
 let myChart;
 
@@ -151,5 +157,3 @@ document.querySelector("#add-btn").onclick = function() {
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
-
-
