@@ -18,4 +18,4 @@ self.addEventListener("install", function(event) {
 // cache the data being passed around
 // put cached data in the database when connection is restored (back online)
 
-self.addEventListener("fetch")
+// self.addEventListener("fetch")
